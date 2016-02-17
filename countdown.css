@@ -1,0 +1,103 @@
+/**** General Styles ****/ 
+
+@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Russo+One);*/
+/*@import url(https://fonts.googleapis.com/css?family=Ropa+Sans);*/
+/*@import url(https://fonts.googleapis.com/css?family=Days+One);*/
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: #eee; 
+    color: #fff; 
+}
+
+#event {
+    font-size: 2em;
+    font-family: Teko, sans-serif;
+/*    font-family: 'Russo One', sans-serif;*/
+/*    font-family: 'Ropa Sans', sans-serif;*/
+/*    font-family: 'Days One', sans-serif;*/
+    max-width: 650px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 0;
+    border: 3px solid black;
+    background: url(feet-and-sun.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: .85;
+}
+
+#event header {
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    letter-spacing: .5em;
+    position: relative;
+    top: 0;
+}
+
+header h1 {
+    margin: 0 auto;
+    font-weight: 600;
+    line-height: 1em;
+    padding-top: .5em;
+    padding-bottom: 0;
+}
+
+header h2 {
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: .4em;
+    text-transform: uppercase;
+}
+
+.event-countdown {
+    text-align: center;
+    text-shadow: 3px 3px #000000;
+}
+
+/**** Countdown Styles ****/
+
+#event .event-countdown .countdown-row {
+    display: block;
+} 
+
+#event .event-countdown .countdown-section {
+    display: inline-block;
+    width: 5em;
+}
+
+#event .event-countdown .countdown-amount {
+    display: block;
+    font-size: 3.5em;
+    line-height: 1.5em;
+}
+
+#event .event-countdown .countdown-period {
+    display: block;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1em;
+}
+
+/**** Small Screens ****/
+
+@media screen and (max-width: 650px) {
+    #event {
+        font-size: 1.5em;
+    } 
+    
+    #event header {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #event .event-countdown {
+        font-size: .8em;
+    } 
+    
