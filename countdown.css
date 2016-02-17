@@ -1,9 +1,6 @@
 /**** General Styles ****/ 
 
 @import url(http://fonts.googleapis.com/css?family=Teko:300,700);
-/*@import url(https://fonts.googleapis.com/css?family=Russo+One);*/
-/*@import url(https://fonts.googleapis.com/css?family=Ropa+Sans);*/
-/*@import url(https://fonts.googleapis.com/css?family=Days+One);*/
 
 body { 
     margin: 0; 
@@ -15,9 +12,6 @@ body {
 #event {
     font-size: 2em;
     font-family: Teko, sans-serif;
-/*    font-family: 'Russo One', sans-serif;*/
-/*    font-family: 'Ropa Sans', sans-serif;*/
-/*    font-family: 'Days One', sans-serif;*/
     max-width: 650px;
     height: 100vh;
     margin: 0 auto;
